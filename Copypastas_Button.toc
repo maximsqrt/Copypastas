@@ -1,0 +1,8 @@
+--Copypastas_Button.toc
+
+## Interface: 11302
+## Title: Copypastas - Button
+## Author: YourName
+## Version: 1.0
+
+Copypastas_Button.lua

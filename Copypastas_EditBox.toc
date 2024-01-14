@@ -1,0 +1,8 @@
+--Copypastas_EditBox.toc
+
+## Interface: 11302
+## Title: Copypastas - EditBox
+## Author: YourName
+## Version: 1.0
+
+Copypastas_EditBox.lua

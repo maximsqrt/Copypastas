@@ -1,0 +1,8 @@
+--Copypastas_Dropdown.toc
+
+## Interface: 11302
+## Title: Copypastas - Dropdown
+## Author: YourName
+## Version: 1.0
+
+Copypastas_Dropdown.lua
