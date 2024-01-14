@@ -1,0 +1,37 @@
+<!-- copypastas.xml -->
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ http://wow.gamepedia.com/API/widgets/UIPanelTemplates.xsd">
+    <Frame name="CopypastasFrame">
+        <Scripts>
+            <OnLoad function="Copypastas_OnLoad"/>
+        </Scripts>
+        <Button name="$parentButton" inherits="UIPanelButtonTemplate">
+            <Size>
+                <AbsDimension x="150" y="30"/>
+            </Size>
+            <Anchors>
+                <Anchor point="CENTER"/>
+            </Anchors>
+            <Scripts>
+                <OnClick>
+                    Copypastas_OnClick();
+                </OnClick>
+            </Scripts>
+            <Layers>
+                <Layer level="BACKGROUND">
+                    <Texture file="Interface\Buttons\UIPanelButton-Highlight" setAllPoints="true"/>
+                </Layer>
+            </Layers>
+            <Text justifyH="CENTER">
+                <FontString inherits="GameFontNormal" text="Select Chat"/>
+            </Text>
+        </Button>
+        <Frame name="$parentDropdown" inherits="UIDropDownMenuTemplate">
+            <Scripts>
+                <OnLoad>
+                    Copypastas_InitDropDown(self);
+                </OnLoad>
+            </Scripts>
+        </Frame>
+    </Frame>
+</Ui>
