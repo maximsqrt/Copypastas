@@ -1,0 +1,10 @@
+--Table of Contents
+
+## Interface: 90005
+## Title: Copypastas
+## Notes: A simple addon for random generated Copypastas, which are correlated raiding
+## Version: 1.0
+## Author: Maxim Sessler 
+
+Copypastas.lua
+Copypastas.xml
